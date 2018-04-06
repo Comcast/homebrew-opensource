@@ -2,6 +2,8 @@
 
 Testing out a tap for Homebrew.
 
+## Installation
+
 To install this tap:
 
 ```
@@ -29,4 +31,9 @@ Already downloaded: /Users/dmuth200/Library/Caches/Homebrew/snowdrift-1.0.tar.gz
 🍺  /usr/local/Cellar/snowdrift/1.0: 7 files, 33.7KB, built in 1 second
 ```
 
+## Packages contained herein
+
+- <a href="https://github.com/Comcast/compare-ini-files">Compare-ini-files</a>
+- <a href="https://github.com/Comcast/ssh-to">Ssh-to</a>
+- <a href="tps://github.com/Comcast/snowdrift">Snowdrift</a>
 
