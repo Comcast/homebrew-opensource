@@ -35,5 +35,5 @@ Already downloaded: /Users/dmuth200/Library/Caches/Homebrew/snowdrift-1.0.tar.gz
 
 - <a href="https://github.com/Comcast/compare-ini-files">Compare-ini-files</a>
 - <a href="https://github.com/Comcast/ssh-to">Ssh-to</a>
-- <a href="tps://github.com/Comcast/snowdrift">Snowdrift</a>
+- <a href="https://github.com/Comcast/snowdrift">Snowdrift</a>
 
