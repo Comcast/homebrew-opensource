@@ -1,6 +1,7 @@
 # homebrew-tap
 
-Testing out a tap for Homebrew.
+Platform Analytics tap for Homebrew.
+
 
 ## Installation
 
