@@ -7,13 +7,13 @@ Testing out a tap for Homebrew.
 To install this tap:
 
 ```
-brew tap dmuth/homebrew-tap https://github.comcast.com/dmuth200/homebrew-tap.git
+brew tap platform-analytics/homebrew-tap https://github.comcast.com/platform-analytics/homebrew-tap
 ```
 
 You should then see output like this:
 ```
 ==> Tapping dmuth/tap
-Cloning into '/usr/local/Homebrew/Library/Taps/dmuth/homebrew-tap'...
+Cloning into '/usr/local/Homebrew/Library/Taps/platform-analytics/homebrew-tap'...
 remote: Counting objects: 6, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
