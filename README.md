@@ -34,7 +34,10 @@ Already downloaded: /Users/dmuth200/Library/Caches/Homebrew/snowdrift-1.0.tar.gz
 
 ## Packages contained herein
 
-- <a href="https://github.com/Comcast/compare-ini-files">Compare-ini-files</a>
-- <a href="https://github.com/Comcast/ssh-to">Ssh-to</a>
-- <a href="https://github.com/Comcast/snowdrift">Snowdrift</a>
+- <a href="https://github.com/Comcast/snowdrift">Snowdrift</a> - Painless firewall testing
+   - Use case: Use before submitting a firewall ticket, then run tests when ticket is complete to verify connectivity
+- <a href="https://github.com/Comcast/ssh-to">Ssh-to</a> - Easily manage hundreds of servers
+   - Use case: Daily one-offs of connecting to servers you manage
+- <a href="https://github.com/Comcast/compare-ini-files">Compare-ini-files</a> - Programatically compare an arbitrary number of .ini files
+   - Use case: versions of a server deployed in different datacenters with slightly different configuration files that you'd like to merge
 
