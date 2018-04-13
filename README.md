@@ -32,7 +32,7 @@ Already downloaded: /Users/dmuth200/Library/Caches/Homebrew/snowdrift-1.0.tar.gz
 🍺  /usr/local/Cellar/snowdrift/1.0: 7 files, 33.7KB, built in 1 second
 ```
 
-## Packages contained herein
+## Formulae contained herein
 
 - <a href="https://github.com/Comcast/snowdrift">Snowdrift</a> - Painless firewall testing
    - Use case: Use before submitting a firewall ticket, then run tests when ticket is complete to verify connectivity
