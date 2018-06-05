@@ -8,28 +8,30 @@ Platform Analytics tap for Homebrew.
 To install this tap:
 
 ```
-brew tap platform-analytics/homebrew-tap https://github.comcast.com/platform-analytics/homebrew-tap
+brew tap comcast/opensource git@github.com:Comcast/homebrew-opensource.git
 ```
 
 You should then see output like this:
 ```
-==> Tapping dmuth/tap
-Cloning into '/usr/local/Homebrew/Library/Taps/platform-analytics/homebrew-tap'...
-remote: Counting objects: 6, done.
-remote: Compressing objects: 100% (3/3), done.
-remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
-Unpacking objects: 100% (6/6), done.
-Tapped 1 formula (31 files, 21.0KB)
+==> Tapping comcast/opensource
+Cloning into '/usr/local/Homebrew/Library/Taps/comcast/homebrew-opensource'...
+remote: Counting objects: 9, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 9 (delta 0), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), 6.60 KiB | 6.60 MiB/s, done.
+Tapped 3 formulae (30 files, 43.4KB)
 ```
 
-From there, packages such as Snowdrift can be installed:
+From there, packages such as <a href="https://github.com/Comcast/snowdrift">Snowdrift</a>
+can be installed:
 
 ```
-$ brew install snowdrift
-==> Installing snowdrift from dmuth/tap
-==> Downloading https://github.com/Comcast/snowdrift/archive/snowdrift-1.0.tar.gz
-Already downloaded: /Users/dmuth200/Library/Caches/Homebrew/snowdrift-1.0.tar.gz
-🍺  /usr/local/Cellar/snowdrift/1.0: 7 files, 33.7KB, built in 1 second
+==> Installing snowdrift from comcast/opensource
+==> Downloading https://github.com/Comcast/snowdrift/archive/snowdrift-1.0.1.tar.gz
+==> Downloading from https://codeload.github.com/Comcast/snowdrift/tar.gz/snowdrift-1.0.1
+######################################################################## 100.0%
+🍺  /usr/local/Cellar/snowdrift/1.0.1: 7 files, 33.7KB, built in 1 second
+
 ```
 
 ## Formulae contained herein
@@ -52,12 +54,13 @@ These example commands will be for the `snowdrift` package.
    - `git push --tags`
 - Add our tap
    - Note that the repo MUST start with `homebrew-`
-   - `brew tap platform-analytics/homebrew-tap git@github.comcast.com:platform-analytics/homebrew-tap.git`
+   - `brew tap comcast/opensource git@github.com:Comcast/homebrew-opensource.git`
+      - This syntax is slightly different, since Cocmast is an organization name, not a GitHub username.
 - Create a new forumla based on the release (tarball) that corresponds to the tag created above
    - To get the path to the tarball, go to your app's repo, click "releases", click on "tags", then right click on the `tar.gz` link to get that tarball's URL
-   - `brew create https://github.com/Comcast/snowdrift/archive/snowdrift-1.0.tar.gz --tap platform-analytics/tap`
+   - `brew create https://github.com/Comcast/snowdrift/archive/snowdrift-1.0.tar.gz --tap comcast/opensource`
 - Now, go into our tap's directory:
-   - `cd $(brew --repo platform-analytics/tap)`
+   - `cd $(brew --repo comcast/opensource)`
 - Verify that the formula is in the `Formula/` directory
 - Test installing that formula
    - `brew install -verbose snowdrift`
@@ -75,7 +78,7 @@ These examples will again be for the `snowdrift` package.
 
 - Tag the current head and push the tags
 - Go into the tap's directory
-   - `cd $(brew --repo platform-analytics/tap)`
+   - `cd $(brew --repo comcast/opensource)`
 - Add a new release tarball
    - `brew edit snowdrift`
    - Get the path to the tarball and update the `url` field in the formula.
