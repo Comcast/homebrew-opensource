@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Platform Analytics tap for Homebrew.
+Homebrew tap for Comcast's open source software.
 
 
 ## Installation
