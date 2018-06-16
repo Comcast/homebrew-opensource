@@ -8,7 +8,7 @@ Homebrew tap for Comcast's open source software.
 To install this tap:
 
 ```
-brew tap comcast/opensource git@github.com:Comcast/homebrew-opensource.git
+brew tap comcast/opensource https://github.com/Comcast/homebrew-opensource.git
 ```
 
 You should then see output like this:
