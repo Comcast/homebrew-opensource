@@ -55,7 +55,7 @@ These example commands will be for the `snowdrift` package.
 - Add our tap
    - Note that the repo MUST start with `homebrew-`
    - `brew tap comcast/opensource git@github.com:Comcast/homebrew-opensource.git`
-      - This syntax is slightly different, since Cocmast is an organization name, not a GitHub username.
+      - This syntax is slightly different, since Comcast is an organization name, not a GitHub username.
 - Create a new forumla based on the release (tarball) that corresponds to the tag created above
    - To get the path to the tarball, go to your app's repo, click "releases", click on "tags", then right click on the `tar.gz` link to get that tarball's URL
    - `brew create https://github.com/Comcast/snowdrift/archive/snowdrift-1.0.tar.gz --tap comcast/opensource`
