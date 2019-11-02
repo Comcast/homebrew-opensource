@@ -1,8 +1,8 @@
 class Snowdrift < Formula
   desc "App to perform testing and validation of firewall rules"
   homepage "https://github.com/Comcast/snowdrift"
-  url "https://github.com/Comcast/snowdrift/archive/snowdrift-1.1.tar.gz"
-  sha256 "6786e34745fb0b3666e9912a4d00fc4347005b7f2a7fb19b421aa4df8e6c322f"
+  url "https://github.com/Comcast/snowdrift/archive/snowdrift-1.1.1.tar.gz"
+  sha256 "0cb0d36e1aaaf619d600ea3fc4ab64b8ef67c6c6607b014c9feb6043f2331491"
 
   def install
     bin.install "snowdrift"
