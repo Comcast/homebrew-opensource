@@ -95,3 +95,11 @@ In this repo:
 - Save Formula file, commit and push to GitHub
 
 
+## Author
+<a name="author"></a>
+
+Douglas Muth <douglas_muth@cable.comcast.com>
+
+Bugs can be filed here or emailed directly to me.
+
+
