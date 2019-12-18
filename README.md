@@ -76,16 +76,22 @@ These example commands will be for the `snowdrift` package.
 
 These examples will again be for the `snowdrift` package.
 
-- Tag the current head and push the tags
+In your project:
+
+- Go into the "Releases" tab in GitHub and create a new release.  Note the URL of the `tar.gz` file in the release.
+
+
+In this repo:
+
 - Go into the tap's directory
    - `cd $(brew --repo comcast/opensource)`
 - Add a new release tarball
    - `brew edit snowdrift`
-   - Get the path to the tarball and update the `url` field in the formula.
+   - Remember the path of the `tar.gz` file? Update the `url` field in the formula with it.
 - Download the new release:
    - `brew fetch snowdrift --build-from-source`
 - Update the SHA256
    - Note the SHA256 displayed when fetching the file, `edit` the formula, and change it to the new value
-- Commit and push to GitHub
+- Save Formula file, commit and push to GitHub
 
 
